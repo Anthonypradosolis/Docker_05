@@ -1,6 +1,8 @@
-# Docker_05
+<h1 align="center">
+  Docker_05
+</h1>
 
-1. Creación del archivo DockerFile
+# **1. Creación del archivo DockerFile**
 
   Para crear el archivo escribimos lo siguiente:
   ```bash
@@ -43,7 +45,7 @@ networks:
  ``` 
 ![Comando](comando_shop.png)
 
-2. Configuracion Pagina
+# **2. Configuracion Pagina**
    
 Si todo salio bien aparecera esto:
 
@@ -59,7 +61,7 @@ Con todo correcto, se finalizara la isntalacion:
 
 ![FinInstalacion](fin_instalacion.png)
 
-3. Arreglo
+ # **3. Arreglo**
 
 Al intertar acceder a Administar Tienda dará error:
 
