@@ -43,3 +43,7 @@ networks:
  ``` 
 ![Comando](comando_shop.png)
 
+Si todo salio bien aparecera esto:
+
+![Pagina](pagina_shop.png)
+
