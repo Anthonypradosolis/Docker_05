@@ -78,3 +78,5 @@ http://localhost:8080/admin552vw8sb9uvj8ucjobz
 Esto nos llevara a la pagina PrestaShop, la cual nos pedira nuestro nombre de usuario y contraseña:
 
 Iniciamos sesion y ya podriamos administrar nuestra tienda de Prestashop
+
+![Final](final.png)
