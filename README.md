@@ -43,6 +43,8 @@ networks:
  ``` 
 ![Comando](comando_shop.png)
 
+2. Configuracion Pagina
+   
 Si todo salio bien aparecera esto:
 
 ![Pagina](pagina_shop.png)
@@ -56,3 +58,23 @@ Con todo correcto, se finalizara la isntalacion:
 ![Instalacion](instalacion_shop.png)
 
 ![FinInstalacion](fin_instalacion.png)
+
+3. Arreglo
+
+Al intertar acceder a Administar Tienda dará error:
+
+Para arreglar esto necesitamos eliminar la carpeta install:
+```bash
+sudo docker exec -it prestashop rm -rf /var/www/html/install
+```
+Por último cambiamos el nombre de la carpeta admin:
+```bash
+docker exec -it prestashop mv /var/www/html/admin /var/www/html/admin552vw8sb9uvj8ucjobz
+```
+En el navegador escribimos lo siguiente:
+```bash
+http://localhost:8080/admin552vw8sb9uvj8ucjobz
+```
+Esto nos llevara a la pagina PrestaShop, la cual nos pedira nuestro nombre de usuario y contraseña:
+
+Iniciamos sesion y ya podriamos administrar nuestra tienda de Prestashop
