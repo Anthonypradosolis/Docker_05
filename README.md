@@ -38,5 +38,8 @@ networks:
      prestashop_network
   ``` 
   Ahora tenemos que guardar el archivo, despues tenemos que ejecutar un comando dentro de ese directorio:
-
+  ```bash
+    sudo docker compose up -d
+ ``` 
+![Comando](comando_shop.png)
 
