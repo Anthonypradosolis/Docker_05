@@ -47,3 +47,7 @@ Si todo salio bien aparecera esto:
 
 ![Pagina](pagina_shop.png)
 
+Tendremos que configurar todos los puntos que aparece hasta el de la conexion con la base de datos:
+
+
+
