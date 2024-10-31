@@ -47,7 +47,12 @@ Si todo salio bien aparecera esto:
 
 ![Pagina](pagina_shop.png)
 
-Tendremos que configurar todos los puntos que aparece hasta el de la conexion con la base de datos:
+Tendremos que configurar todos los puntos que aparece hasta el de la conexion con la base de datos: el puerto predeterminado de mySQL es 3306
 
+![BaseDatos](base_datos_shop.png)
 
+Con todo correcto, se finalizara la isntalacion:
 
+![Instalacion](instalacion_shop.png)
+
+![FinInstalacion](fin_instalacion.png)
